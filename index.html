@@ -2,324 +2,489 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Jhoan Talaga</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhoan Talaga </title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="icon" href="src/iniciales.png">
-    <script src="https://kit.fontawesome.com/d3c8ba32df.js" crossorigin="anonymous"></script> 
+    <link rel="icon" href="src/JHOAN TALAGA.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
 
-    <div class="contenedor-header">
-        <header>
-            <div class="logo">
-               <a href="#">JHOAN TALAGA</a> 
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
-                    <li><a href="#proyectos" onclick="seleccionar()">PROYECTOS</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                    <li><a href="#reflexion" onclick="seleccionar()">REFLEXIÓN</a></li>
-                </ul>
+        <header class="header">
+            <img src="/src/JHOAN TALAGA img.png"></img>
+            
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#inicio" class="active">INICIO</a>
+                <a href="#sobremi">SOBRE MI</a>
+                <a href="#proyectos">PROYECTOS</a>
+                <a href="#habilidades">HABILIDADES</a>
+                <a href="#contacto">CONTACTO</a>
             </nav>
-            
         </header>
-    </div>
-    
-     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="src/jhoantalaga.jpg" alt="Foto de Perfil" width="500px" >
-            </div>
-            <h1>Jhoan Talaga</h1>
-            <h2>Web Developer - Audiovisual producer</h2>
-            <div class="redes">
-                <a target="_blank" href="https://www.facebook.com/tatosandss"><i class="fa-brands fa-facebook"></i></a>
-                <a target="_blank" href="https://www.instagram.com/eltalagaa"><i class="fa-brands fa-square-instagram"></i></a>
-                <a target="_blank" href=https://www.linkedin.com/in/jhoan-talaga-4b503014b><i class="fa-brands fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/eltalagaa"><i class="fa-brands fa-github"></i></a>
-                <a target="_blank" href="https://www.behance.net/jhoanstalaga"> <i class="fa-brands fa-square-behance"></i></a>
-                <a target="_blank" href="mailto:correodejemplo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-
-            </div>
-            
-
-            
-
-
-
-        </div>
-     </section>
-   
-        <section id="sobremi" class="sobremi">
-            <div class="contenido-seccion">
-                <h2>SOBRE MI</h2>
-                <p><span>Productor Audiovisual y Desarrollador Web con amplia experiencia en el desarrollo y innovación tecnológica. Poseo conocimientos avanzados en la suite de Adobe, destacando en Illustrator, Photoshop y Premiere Pro. Mi perfil se fortalece con sólidos conocimientos en tecnologías de front-end, permitiéndome contribuir de manera integral a proyectos multimedia. Mis habilidades en desarrollo web front-end abarcan HTML, CSS y JavaScript, asegurando la creación de interfaces atractivas y funcionales. Además, tengo experiencia con herramientas y frameworks de desarrollo web, principios de diseño responsivo y la integración eficaz de elementos multimedia en sitios web.  Perseverante y responsable, con habilidades para la mejora continua y el cultivo de relaciones interpersonales efectivas.</span></p>
-
-
-            </div>
-        </section>
-
-        </section>
-    <section class="skills" id="skills">
-        <div class="contenido-seccion">
-            <h2>HABILIDADES</h2>
-            <div class="fila">
-                <div class="col">
-                    <h3>HABILIDADES TECNICAS</h3>
-                    <div class="skill">
-                        <span>Javascript </span>
-                        <div class="barra-skill">
-                            <div class="progreso javascript">
-                                <span>20%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>HTML </span>
-                        <div class="barra-skill">
-                            <div class="progreso HTML">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso CSS">
-                                <span>40%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Photoshop</span>
-                        <div class="barra-skill">
-                            <div class="progreso Photoshop">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Ilustrator</span>
-                        <div class="barra-skill">
-                            <div class="progreso Ilustrator">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Premiere Pro</span>
-                        <div class="barra-skill">
-                            <div class="progreso PremierePro">
-                                <span>95%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Audition</span>
-                        <div class="barra-skill">
-                            <div class="progreso Audition">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="col">
-                    <h3>HABILIDADES BLANDAS</h3>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso Comunicación">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en Equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso TrabajoenEquipo">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creatividad</span>
-                        <div class="barra-skill">
-                            <div class="progreso Creatividad">
-                                <span>90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Atencion al detalle</span>
-                        <div class="barra-skill">
-                            <div class="progreso Atencionaldetalle">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="proyectos" class="proyectos">
-        <div class="contenido-seccion">
-            <h2>PROYECTOS</h2>
-            <br>
-            <br>
-            <div class="fila">
-                <div class="col izquierda">
-                    <h3>Educación</h3>
-                    <br>
-                    <div class="item izq">
-                        <h4>Dirección y Producción de Medios Audiovisuales</h4>
-                        <span class="casa">Corporación Unificada de Educación Superior CUN</span><br>
-                        <span class="fechalugar">2019 - 2022, Bogotá, Colombia</span>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <br>
-                        <h4>Bootcamp Full-Stack/Java Developer Junior</h4>
-                        <span class="casa">Generation </span><br>
-                        <span class="fechalugar">2023 - 2024, Bogotá, Colombia</span>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <br>
-                        <h4>Curso de Sistemas</h4>
-                        <span class="casa">Colombian System</span><br>
-                        <span class="fechalugar">2014, Bogotá Colombia</span>
-                        <p>Curso de programa de sistemas, ensamble, Mantenimiento y                         
-                            programaciónde equipos con énfasis en ingles. </p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                    <div class="item izq">
-                        <br>
-                        <h4>Curso Intersemestral </h4>
-                        <span class="casa">Universidad Central</span><br>
-                        <span class="fechalugar">2014, Bogotá Colombia</span>
-                        <p>Curso Libre intersemestral de lectura, Escritura y Matemáticas </p>
-                        <div class="conectori">
-                            <div class="circuloi"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col derecha">
-                    <h3>Experiencia laboral</h3>
-                    <br>
-                    <div class="item der">
-                        <h4>Auxiliar de Innovación Tecnologica en la Educación</h4>
-                        <span class="casa">Fundación Universitaria del Area Andina</span>
-                        <span class="fecha">2021 - 2023</span>
-                        <p>Soporte técnico a los recursos tecnológicos y mesa de ayuda. Apoyo técnico, logístico y operativo en medios audiovisuales. Diseño, asistencia y operación de eventos institucionales con recursos de escenarios virtuales a través de chroma y transmisión audiovisual.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <br>
-                        <h4>Asistente de Reporteria - Aprendiz Tecnico</h4>
-                        <span class="casa">CITY TV</span>
-                        <span class="fecha">2020 - 2021</span>
-                        <p>Asistente de Reportería. Asistentencia de grabaciones en exterior e interior. Operación de Equipo de transmisión Live u. Alistamiento de equipos técnicos para grabaciones.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                    <div class="item der">
-                        <br>
-                        <h4>Diseñador y Asistente de comunicaciones</h4>
-                        <span class="casa">Sky Zone Colombia</span>
-                        <span class="fecha">2019 - 2020</span>
-                        <p>Creador de piezas gráficas.Diseños y contenido como: Publicidad, alianzas, logos,
-                            afiches, flyers, banners, stoppers. Manejo de mailings, redes sociales.</p>
-                        <div class="conectord">
-                            <div class="circulod"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        
-
-    </main>
-    <section id="contacto" class="contacto">
-        
-    </section>
-    <section>
-        
-    </section>
-    <div class="container-form">
-        <div class="info-form">
-            <h2>CONTACTAME</h2>
-            <a href="#"><i class="fa fa-phone">  301 294 24 73</i></a>
-            <a href="#"><i class="fa fa-envelope"> talagajhoan@gmail.com</i></a>
-            <a href="#"><i class="fa fa-map-marked"> Bogota, Colombia</i></a>
-        </div>
-        <form action="https://formsubmit.co/ talagajhoan@gmail.com" method="POST" target="_blank" autocomplete="off">
-            <h2>DEJA TU MENSAJE</h2>
-            <input type="text" name="nombre" placeholder="Nombre y apellidos:" class="campo" required>
-            <input type="email" name="email" placeholder="Tu Correo Electrónico:" class="campo" required>
-            <textarea name="mensaje" placeholder="Escribe tu mensaje:" required></textarea>
-            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-        </form>
-    </div>
-    <section id="reflexion" class="reflexion">
-        <div class="reflexion-seccion">
-            <h2>REFLEXIÓN</h2>
-            <br>
-            <br>
-            <p><span>En este bootcamp, he experimentado una amplia gama de emociones, ya que ha sido mi primera inmersión en el mundo del desarrollo. Hay días en los que me siento abrumado y frustrado debido a la cantidad de conocimientos que recibimos diariamente. A pesar de los desafíos y obstáculos, he llegado a la conclusión de que tengo mucho que aportar y, sobre todo, un largo camino por recorrer para mejorar y aprender.
-                El mundo del desarrollo es extenso, lleno de conocimientos y habilidades. A pesar de las dificultades, mantengo una actitud positiva y estoy lleno de energía. He descubierto que puedo contribuir significativamente, y cada día crece mi amor por la programación gracias a este programa.
+            <section class="inicio" id="inicio">
+                <div class="inicio-content">
+                    <h1>Hola, soy <span>Jhoan </span></h1>
+                     <h3 class="text-animation"> <span></span></h3>
+                    <p>¡Bienvenido a mi fascinante mundo! Soy un apasionado del desarrollo web. Explora mi página y descubramos juntos la magia de construir proyectos innovadores. ¡Empecemos este emocionante viaje!🚀</p>
                 
-                Estoy emocionado por todo lo que aprenderé y, sobre todo, por lo que el futuro tiene reservado. El programa ha avivado mi entusiasmo y estoy ansioso por enfrentar los desafíos y crecer en este emocionante viaje de desarrollo.    </span></p>
-                <br>
-                <br>
-                <h2>Éxitos en el programa</h2>
-                <p><span>Logré entender y aplicar los conceptos fundamentales de HTML, CSS, JavaScript(Estoy en ese proceso). Fortalecí mi mentalidad analítica para resolver problemas y diseñar algoritmos.
-                    Estoy Completando mi Portafolio, cumpliendo con los requisitos establecidos.</span>
-                    <br>
-                    <br>
-                    <h2>Áreas de Mejora</h2>
-                    <p><span>Identifiqué que podría mejorar mi eficiencia en la resolución de problemas. Necesito fortalecer mi comprensión de ciertos temas específicos de CSS y JS, así como interiorizar los códigos y aprenderlos de memoria sin necesidad de depender de notas. También reconozco la importancia de fortalecer mi autoconocimiento para comprender mejor mis fortalezas y áreas de mejora. Estos son aspectos clave que trabajaré de manera proactiva para alcanzar un nivel más sólido de habilidades y conocimientos en mi viaje de aprendizaje y desarrollo.</span>
-                        <br>
-                        <br>
-                        <h2>Habitos de Mejora</h2>
-                        <p><span>Programar tiempo específico para estudiar JavaScript y realizar prácticas adicionales. Unirme a comunidades en línea para participar en desafíos y discusiones. Practicar ejercicios de lógica de programación y aplicar lo aprendido en clase. Realizar cursos de CSS, HTML y JS para mejorar las habilidades como front-end (mi enfoque principal).</span>
-
-       
-                            <footer>
-                                <p>&copy; Jhoan Sebastian Talaga (2024) </p>
-                            </footer>
-                            
-                            <script src="script.js"></script>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.linkedin.com/in/jhoan-talaga-developer-frontend/"><i class='bx bxl-linkedin'> </i></a>
+                        <a target="_blank" href="https://github.com/eltalagaa"><i class='bx bxl-github'></i></a>
+                        <a target="_blank" href="https://www.behance.net/jhoanstalaga"><i class='bx bxl-behance'></i></a>
+                        <a target="_blank" href="https://wa.me/573012942473"><i class='bx bxl-whatsapp'></i></a>
                         
+                    </div>
+                    <div class="btn-group">
+                        <a target="_blank" href="https://acrobat.adobe.com/id/urn:aaid:sc:US:a77e2f65-0d2c-4385-b896-1b1ed6ffd869" class="btn">MI CV</a>
+                        <a href="#contacto" class="btn">Contáctame</a>
+                    </div>
+                </div>
         
-          
-            
-     
-      
-      
-    
+                    <div class="inicio-img">
+                        <img src="/src/jhoantalaga.jpg" alt="Jhoan Talaga Developer">
+                    </div>
+            </section>
+           
+            <section class="sobremi" id="sobremi">
+                <div class="container">
+                    <h2 class="heading">SOBRE MI</h2>
+                  <P>Productor audiovisual con énfasis en el desarrollo web. Poseo conocimientos en el desarrollo Frontend (HTML, CSS y JavaScript) y familiarizado con tecnologías Backend (Java, MySQL, MongoDB). Además, tengo experiencia en el uso de herramientas de diseño como Adobe Illustrator, Adobe Photoshop, Adobe Premiere y Adobe InDesign. Siempre estoy dispuesto a explorar y aprender nuevas tecnologías. Cuento con habilidades para trabajar en equipo, atención al detalle, comunicación efectiva y capacidad de adaptación al cambio, lo que me permite alcanzar de manera eficaz los objetivos propuestos.</P>
+                  <div class="contenido-seccion">
+                    
+                    <br>
+                    <br>
+                    <div class="fila">
+                        <div class="col izquierda">
+                            <h3>Educación</h3>
+                            <br>
+                            <div class="item izq">
+                                <br>
+                                <h4>Bootcamp Full-Stack/Java Developer Junior</h4>
+                                <span class="casa">Generation Colombia</span><br>
+                                <span class="fechalugar">2023 - 2024, Bogotá, Colombia</span>
+                                <div class="conectori">
+                                    <div class="circuloi"></div>
+                                </div>
+                            </div>
+                            <div class="item izq">
+                                <h4>Dirección y Producción de Medios Audiovisuales</h4>
+                                <span class="casa">Corporación Unificada de Educación Superior CUN</span><br>
+                                <span class="fechalugar">2019 - 2022, Bogotá, Colombia</span>
+                               
+                            </div>
+                           
+                            <div class="item izq">
+                                <br>
+                                <h4>Curso de Sistemas</h4>
+                                <span class="casa">Colombian System</span><br>
+                                <span class="fechalugar">2014, Bogotá Colombia</span>
+                               
+                
+                            </div>
+                            <div class="item izq">
+                                <br>
+                                <h4>Curso Intersemestral </h4>
+                                <span class="casa">Universidad Central</span><br>
+                                <span class="fechalugar">2014, Bogotá Colombia</span>
+                
+                                
+                            </div>
+                        </div>
+        
+                        <div class="col derecha">
+                            <h3>Experiencia laboral</h3>
+                            <br>
+                            <div class="item der">
+                                <h4>Auxiliar de Innovación Tecnologica en la Educación</h4>
+                                <span class="casa">Fundación Universitaria del Area Andina</span>
+                                <span class="fecha">2021 - 2023, Bogotá Colombia</span>
+                                
+                                
+                            </div>
+                            <div class="item der">
+                                <br>
+                                <h4>Asistente de Reporteria Aprendiz Tecnico</h4>
+                                <span class="casa">CITY TV</span>
+                                <span class="fecha">2020 - 2021, Bogotá Colombia</span>
+                                
+                            </div>
+                            <div class="item der">
+                                <br>
+                                <h4>Diseñador y Asistente de comunicaciones</h4>
+                                <span class="casa">Sky Zone Colombia</span>
+                                <span class="fecha">2019 - 2020, Bogotá Colombia</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+          <section class="proyectos" id="proyectos">
+                 <h2>PROYECTOS</h2>
+                 <p>¡Descubre el universo de mis proyectos! Cada uno de ellos es una expresión única de creatividad y habilidades en desarrollo web. Desde cautivadores diseños Frontend y implementaciones Backend, mis proyectos son la amalgama perfecta de innovación y técnica. Explora este espacio donde cada línea de código cuenta una historia y cada diseño cuenta con atención al detalle.  ¡Bienvenidos a mi portafolio! 🚀✨</p> 
+                 
+                 <div class="btn-1" id="btn-1">
+                    <a target="_blank" href="https://github.com/eltalagaa" class="btn">MIS PROYECTOS</a>
+                 </div>
+                 
+                
+                
+             
+               <div id="proyectos" class="proyectos">
+                <div class="fila">
+                    <div class="col">
+                        <img src="/src/etech sustain.png" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>E-Tech Sustain </h3>
+                            <br>
+                            <p>E-commerce</p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="https://github.com/loremonmu/front_E-TechSustain.git"><i class='bx bxl-github'></i></a>
 
+                                <a target="_blank" href="https://e-tech-sustain.netlify.app/"><i class='bx bx-world'></i></a>
+                            </div>
+                            <div class="social-iconss">
+                                <i class='bx bxl-html5'></i></a>
+                                <i class='bx bxl-css3' ></i>
+                                <i class='bx bxl-javascript' ></i>
+                                <i class='bx bxl-java' ></i>
+                                <i class='bx bxl-mongodb' ></i>
+                                <i class='bx bxl-spring-boot' ></i>
+                                
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <img src="/src/work in progress  (1).jpg" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>Proyecto en proceso</h3>
+                            <br>
+                            <p>Diseño y Desarrollo </p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="#sobremi"><i class='bx bxl-github'></i></a>
+
+                                <a target="_blank" href="#proyectos"><i class='bx bx-world'></i></a>
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+                    <div class="col">
+                        <img src="/src/work in progress  (2).jpg" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>Proyecto en proceso</h3>
+                            <br>
+                            <p>Diseño y Desarrollo </p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="#inicio"><i class='bx bxl-github'></i></a>
+
+                                <a target="_blank" href="#sobremi"><i class='bx bx-world'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <img src="/src/work in progress  (3).jpg" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>Proyecto en proceso </h3>
+                            <br>
+                            <p>Diseño y Desarrollo </p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="#sobremi"><i class='bx bxl-github'></i></a>
+
+                                <a target="_blank" href="#proyectos"><i class='bx bx-world'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="/src/work in progress  (4).jpg" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>Proyecto en proceso</h3>
+                            <br>
+                            <p>Diseño y Desarrollo </p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="#sobremi"><i class='bx bxl-github'></i></a>
+
+                                <a target="_blank" href="#proyectos"><i class='bx bx-world'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="/src/work in progress  (5).jpg" alt="">
+                        <div class="overlay">
+                        </div>
+                        <div class="info">
+                            <h3>Proyecto en proceso</h3>
+                            <br>
+                            <p>Diseño y Desarrollo </p>
+                            <div class="social-iconss">
+                                <a target="_blank" href="#sobremi"><i class='bx bxl-github'></i></a>
+
+                                <a target="_blank" href="#proyectos"><i class='bx bx-world'></i></a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+               
+         </section>
+         <section class="habilidades" id="habilidades">
+            <div class="habilidades-box">
+                <h2 class="heading">HABILIDADES</h2>
+                <p>
+                    Implemento un enfoque de diseño adaptativo centrado en la interfaz de usuario para lograr una presentación visual eficaz en diversos dispositivos. Mi objetivo principal es asegurar un manejo escalable, funcional y cómodo, ajustado a las necesidades de los usuarios. Además, sigo las prácticas actuales para promover la dinamicidad y accesibilidad web, brindando así una experiencia de usuario enriquecedora.</p> 
+                 
+
+                <div class="wrapper">
+                    <div class="habilidades-item">
+                        <img src="/src/html5.png" alt="html">
+                        <h2>HTML</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+
+                        </p>
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/CSS3.png" alt="css">
+                        <h2>CSS</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                       
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/javascrip.png" alt="JavaScript">
+                        <h2>JavaScript</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/Bootstrap.png" alt="Bootstrap">
+                        <h2>Bootstrap</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/java.jpg" alt="Java">
+                        <h2>JAVA</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/mongo.png" alt="MongoDB">
+                        <h2>MongoDB</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/mysql.png" alt="MySQL">
+                        <h2>MySQL</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/Spring_Boot.png" alt="Spring Boot">
+                        <h2>Spring Boot</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                           
+
+                        </div>
+                       
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/figma.png" alt="figma">
+                        <h2>Figma</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/photoshop.png" alt="photoshop">
+                        <h2>Photoshop</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/ilustrator.png" alt="ilustrator">
+                        <h2>Ilustrator</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/premiere.png" alt="premiere">
+                        <h2>Premiere</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/indesign.png" alt="InDesign">
+                        <h2>InDesign</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            
+
+                        </div>
+                        
+                    </div>
+                    <div class="habilidades-item">
+                        <img src="/src/wordpress.png" alt="Wordpress">
+                        <h2>Wordpress</h2>
+                        <div class="rating">
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                            <i class='bx bxs-star' id="star"></i>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+         </section>
+         <section class="contacto" id="contacto">
+               <h2 class="heading">CONTACTA<span>ME</span></h2> 
+               
+               <form action="">
+                   <div class="input-group">
+                      <div class="input-box">
+                        <input type="text" placeholder="Nombre Completo">
+                        <input type="email" placeholder="Correo Electronico">
+                      </div>
+                         <div class="input-box">
+                            <input type="number" placeholder="Numero Telefonico">
+                            <input type="text" placeholder="Ciudad">
+                         </div>
+                   </div>
+                        <div class="input-group-2"><textarea name="" id="" cols="30" rows="10" placeholder="Deja Tu Mensaje"></textarea>
+                        <input type="submit" value="Enviar Mensaje" class="btn">
+                   </div>
+               </form>
+         </section>
+         <footer class="footer">
+            <div class="containerr">
+                <div class="logo"></div>
+                <div class="bottom_part"></div>
+            </div>
+
+             <div class="social">
+                 <a target="_blank" href="https://www.linkedin.com/in/jhoan-talaga-developer-frontend/"><i class='bx bxl-linkedin'> </i></a>
+                        <a target="_blank" href="https://github.com/eltalagaa"><i class='bx bxl-github'></i></a>
+                        <a target="_blank" href="https://www.behance.net/jhoanstalaga"><i class='bx bxl-behance'></i></a>
+                        <a target="_blank" href="https://wa.me/573012942473"><i class='bx bxl-whatsapp'></i></a>
+              </div>
+              <ul class="list">
+                  <li>
+                      <a href="#inicio">FAQ</a>
+                  </li>
+                  <li>
+                    <a href="#inicio">INICIO</a>
+                </li>
+                <li>
+                    <a href="#sobremi">SOBRE MI</a>
+                </li>
+                <li>
+                    <a href="#proyectos">PROYECTOS</a>
+                </li>
+                <li>
+                    <a href="#habilidades">HABILIDADES</a>
+                </li>
+              </ul>
+              <p class="copyright">
+                © Jhoan Sebastian Talaga | Todos los derechos reservados | Condiciones y restricciones | Política de privacidad | Menciones legales
+              </p>
+         </footer>
+            <script src="/JS/script.js"></script>
 </body>
 </html>

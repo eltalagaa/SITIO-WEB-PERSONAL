@@ -1,29 +1,25 @@
+let menuIcon= document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+let sections= document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
 
-function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
+menuIcon.onclick= () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
 }
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
 
-function efectoskills(){
-    var skills = document.getElementById("skills");
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-    if(distancia_skills >= 300){
-        let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javascript");
-        habilidades[1].classList.add("HTML");
-        habilidades[2].classList.add("CSS");
-        habilidades[3].classList.add("Photoshop");
-        habilidades[4].classList.add("Ilustrator");
-        habilidades[5].classList.add("PremierePro");
-        habilidades[6].classList.add("Audition");
-        habilidades[7].classList.add("Comunicación");
-        habilidades[8].classList.add("TrabajoenEquipo");
-        habilidades[9].classList.add("Creatividad");
-        habilidades[9].classList.add("Atencionaldetalle");
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(Links =>{
+                Links.classList.remove('active');
+                document.querySelector('header nav a [href*=' + id + ']').classList.add('active')
+            })
+        }
 
-    }
-    window.onscroll = function(){
-        efectoHabilidades();
-    } 
+    })
 }
